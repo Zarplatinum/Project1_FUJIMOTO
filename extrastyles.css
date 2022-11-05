@@ -1,0 +1,55 @@
+.page {
+    width: 900px;
+    margin: 0 auto;
+    }
+    
+body {
+    font-family: 'Helvetica', Times, serif;
+    background-color: #FBF0D9;
+    color: #414141;
+    margin: 8px auto;
+    padding: 0;   
+    }
+ 
+    h1, h2 {
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        background-color: black;
+        color: azure;
+        font-weight: bolder;
+        text-align: center;
+        }    
+
+p {
+        position: relative;
+}    
+ul {
+    list-style-type: square;
+}
+img {
+    border: 2px solid black;
+    width: 896px; 
+    height: 600px; 
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    text-decoration: underline;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+a:visited:hover {
+    color: orange;
+}
+a:visited:active {
+    color: red;    
+}
